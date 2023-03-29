@@ -1,0 +1,13 @@
+#root {
+ 
+  text-align: center;
+}
+
+.fit{
+
+  @apply  object-contain
+}
+@font-face {
+  font-family:ellams;
+  src:local("amazing-kids"), url("./font/amazing-kids.ttf") format("truetype");
+}

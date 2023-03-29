@@ -1,0 +1,161 @@
+
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ .satoshi,.footer-text,.grey-txt{
+  font-family: 'Satoshi', sans-serif;
+
+ }
+ .social-icon{
+  @apply lg:w-[32px] lg:h-[31px]
+ }
+ .grey{
+  @apply text-[#A1A1A1] lg:text-[16px] text-[8px] md:text-[11px]
+ }
+ .clash, .sub-head,.courses-text{
+  font-family: 'Clash Display';
+ }
+ .footer-text{
+  @apply font-extra-light
+ }
+.heading{
+   font-family: 'Clash Display';
+   font-weight: 700;
+}
+.heading2{
+  font-family: 'Clash Display';
+  font-weight: 700;
+  color: white;
+}
+.img-card{
+  @apply flex pt-4 gap-3;
+}
+.view-courses{
+
+  @apply px-4 lg:text-[16px] text-[8px] my-4 p-2 rounded-[2px] bg-oceanblue text-white;
+}
+.pad{
+  @apply rounded-[24px] lg:text-[14px] lg:w-[100%]  lg:px-3 px-[30px]  text-[10px] text-[#A1A1A1] bg-[#ffffff] ;
+}
+.card{
+  @apply text-left h-[276px] rounded-4xl  bg-[#F8F9FC] py-4;
+}
+.courses-card{
+  background: rgba(30, 93, 206, 0.2);
+
+}
+
+.slick-dots li.slick-active button:before {
+  color: #004DB3;
+  font-size: 10px;
+ }
+.heading{
+  @apply text-[#000F24];
+}
+.footer-text{
+  @apply leading-[32px]
+}
+.fit{
+
+  @apply w-[50px] lg:w-[200px]  object-contain;
+}
+input::placeholder{
+  color:  #424141;
+  padding: 10px;
+  font-size: 12px;
+  font-family: 'Satoshi', sans-serif;
+}
+input{
+  border-radius: 2px 0px 0px 2px;
+}
+.input-btn{
+  border-radius: 0px 2px 2px 0px;
+
+}
+.sub-head{
+  @apply text-[24px] text-[white] py-3 font-semibold;
+}
+.icons-flex{
+  @apply  flex satoshi bg-[#FFFFFF] p-3 gap-3 text-left justify-center;
+}
+.question{
+  @apply flex border-b-2 border-black ;
+}
+.enroll{
+ @apply bg-white text-oceanblue lg:text-[16px] text-[8px]  rounded-[4px] p-2 px-4;
+}
+.heading{
+ @apply lg:text-[56px] pt-4 md:text-[38px] text-[24px] lg:text-left text-center  lg:leading-[70px] ;
+}
+.icon{
+  @apply w-[38px] rounded-[4px] lg:h-[48px]  h-[32px] lg:w-[32px] text-center p-1 lg:p-2;
+}
+.iconz{
+  @apply w-[33px] rounded-[4px] lg:h-[33px]  h-[32px] lg:w-[32px] text-center p-1 lg:p-2;
+}
+.icon-1{
+  background: rgba(63, 169, 106, 0.2);
+
+
+}
+.classes-bx{
+  @apply lg:w-[48px] lg:h-[48px] my-2 w-[32px];
+} 
+.box-txt{
+ @apply lg:text-[13px] md:text-[11px] text-[8px] ;
+}
+
+.icons-flex{
+  @apply rounded-[10px]
+}
+
+
+
+.frequently-asked{
+  @apply bg-white px-4 py-5 lg:px-[132px]
+}
+.icon-2{
+  
+background: rgba(247, 158, 142, 0.2);
+
+}
+.icon-3{
+  background: rgba(146, 105, 205, 0.2);
+
+}
+.icon-4{
+  background: rgba(89, 120, 207, 0.2);
+
+}
+.courses-flex{
+  @apply grid lg:grid-cols-3  gap-3 lg:p-6 px-2 grid-cols-2 bg-[#F8F9FC] ;
+}
+.box{
+  @apply w-[277px] p-3   bg-[#ffffff] md:h-[260] h-[220px] lg:h-[260px];
+}
+.bold-txt{
+  @apply text-[16px] text-red;
+}
+.texts{
+  @apply text-[#000F24] pt-[10px] lg:pt-0 md:text-[10px] text-[8px] lg:text-[16px] font-bold text-left;
+}
+.texts1{
+  @apply text-[#000F24] pt-[10px] lg:pt-0 text-[12px] lg:text-[16px] font-bold text-left;
+}
+.box p{
+  @apply lg:leading-[28px] leading-[20px];
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #004DB3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
