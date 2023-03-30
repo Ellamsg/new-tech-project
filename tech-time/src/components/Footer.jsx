@@ -12,7 +12,7 @@ export default function Footer(){
 
     <div className="footer grid pt-[90px] pb-[240px] md:grid-cols-2 lg:grid-cols-4 grid-cols-1  justify-between p-3 lg:p-6 bg-[#000F24] text-white text-left">
        <div className="foot1 pb-2  ">
-       <p className=" font-[ellams] lg:text-[40px] text-[19px]">Tech time</p>
+       <img className="lg:w-[127px]  pt-1 w-[70px]" src="images/renamed.png" />
          <p className="lg:text-[16px] lg:w-[280px]">Reach out to us on any of our social media networks</p>
          <div className="flex gap-3 pt-3 flex-row">
            <img className="social-icon" src="images/facebook.png"/>
@@ -49,7 +49,7 @@ export default function Footer(){
             <div className="flex   ">
          <input placeholder="Nft123@gmail.com" className="h-[46px] lg:w-[180px]  w-[263px] border-2 border-[#054FB3] bg-[#2A2A2B]"  type="text" />
           
-         <button className="bg-oceanblue px-2 text-[14px] h-[46px] input-btn text-white">Send Message</button>
+         <button className="bg-oceanblue px-2 text-[8px] lg:text-[14px] h-[46px] input-btn text-white">Send Message</button>
             </div>
         </div>
     </div>
