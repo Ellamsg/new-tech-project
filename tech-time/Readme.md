@@ -1,4 +1,4 @@
-HOW TO RUN THIS APP
+#HOW TO RUN THIS APP
 
 1- Install Docker: If you haven't already, you will need to install Docker on your computer. You can download it from the Docker website.
 
@@ -19,3 +19,7 @@ docker run -p 3000:3000 my-app
 6 -Open the app: Open your web browser and navigate to http://localhost:8080. You should see the React app running in your browser.
 
 7 -When you run the docker build command, it will install all the necessary dependencies for the project inside the Docker container, so you do not need to install any dependencies on your local machine. The docker run command will start the Docker container and expose the app on port 8080. The -p flag maps port 8080 inside the container to port 8080 on your local machine. This allows you to access the app by navigating to http://localhost:8080 in your web browser.
+
+
+
+#live link https://tech-timepro.netlify.app
