@@ -5,18 +5,18 @@
 
 1- Install Docker: If you haven't already, you will need to install Docker on your computer. You can download it from the Docker website.
 
-2- Clone the project: Clone the project from the fellow developer's Git repository using the Git command or download the code as a zip file.
+2- Clone the project: Clone the project from the Git repository using the Git command " git clone < your git repo link>" or download the code as a zip file.
 
-3- Navigate to the project's directory in your terminal.
+3- Navigate to the project's directory in your terminal. "cd the path"
 
 4- Build the Docker image: Run the docker build command to build the Docker image. This command will use the Dockerfile that is included in the project to create the image.
 
-docker build -t my-app .
+docker build -t tech-time .
 
 
 5- Run the Docker container: Once the image has been built, run the Docker container using the docker run command. Be sure to include the -p flag to map the container's port to a port on your computer.
 
-docker run -p 8080:8080 my-app
+docker run -p 8080:8080 tech-time
 
 
 6 -Open the app: Open your web browser and navigate to http://localhost:8080. You should see the React app running in your browser.
