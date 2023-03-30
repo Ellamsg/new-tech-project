@@ -17,7 +17,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
         Price: 52.00,
-        topic: "Marketinn",
+        topic: "Marketing",
         imageUrl: "images/course1.png",
         nameImg : "images/circle2.png"
     },
@@ -52,7 +52,7 @@ export default [
         nameImg : "images/circle5.png"
     },
     {
-        title: "introduction to live  marketing analysis",
+        title: "introduction to live -- marketing and  analysis",
         name: "Adam smith",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
