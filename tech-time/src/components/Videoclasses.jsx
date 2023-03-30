@@ -1,6 +1,6 @@
 
 import React from "react"
-
+import { motion } from 'framer-motion';
 export default function Videoclasses(){
 
    
@@ -10,9 +10,21 @@ export default function Videoclasses(){
         <img className="right-0 lg:w-[52px] w-[44px] top-[130px] lg:top-2 absolute z-10" src="images/pups.png"/>
      <div className='text-left lg:pl-5   relative '>
      <img className="absolute w-[40px] lg:w-[43px] left-0 md:left-4 lg:left-0" src="images/crown.png "/>
-        <div className="heading lg:w-[65%] ">
+        <motion.div  initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .8,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .4
+    }
+  },
+}} className="heading lg:w-[65%] ">
             <p>High quality video,audio & live classes</p>
-        </div>
+        </motion.div>
         <div className="satoshi lg:text-left text-center  grey">
             <p>high-defination video is video of higher resolution and quality than standard </p>
             <p>definition. while there’s Standard Meaning For High Definition,</p>

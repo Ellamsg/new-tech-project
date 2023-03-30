@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from 'framer-motion';
 
 export default function Landingpage() {
   return (
@@ -23,7 +24,19 @@ export default function Landingpage() {
         className="absolute h-[16px] lg:top-6 hidden lg:block"
         src="images/leaff.png"
       />
-      <div className="left pt-5 lg:pt-[150px]">
+      <motion.div initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .8,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .4
+    }
+  },
+}} className="left pt-5 lg:pt-[150px]">
         <div className=" text-white heading2 lg:w-[600px]  lg:text-[56px] text-[32px] md:text-[40px] leading-[50px] md:leading-[82px] ">
           <p>Grow your skill to </p>
           <p>advance your career</p>
@@ -55,14 +68,26 @@ export default function Landingpage() {
             <p className="text-center lg:text-[20px] text-[10px] font-thin">Previews</p>
           </div>
         </div>
-      </div>
-      <div className="right flex justify-center">
+      </motion.div>
+      <motion.div initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .8,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .9
+    }
+  },
+}} className="right flex justify-center">
         <img
           className=" lg:w-[675px] h-full"
           src="images/career.png"
           alt="career"
         />
-      </div>
+      </motion.div>
     </div>
   );
 }
