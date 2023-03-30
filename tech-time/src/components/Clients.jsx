@@ -10,7 +10,7 @@ export default function Clients(){
     });
     return (
 
-    <div className=" bg-[#F8F9FC] relative p-3 py-3 lg:py-6">
+    <div className=" bg-[#F8F9FC] relative lg:p-3 py-3 lg:py-6">
       <img className="lg:left-7 top-5 lg:w-[26px] w-[10px]  lg:top-[180px] absolute z-10" src="images/cross.png"/>
      <div className="div flex justify-center ">
       <h1 className="heading"> Browse our popular courses</h1>
