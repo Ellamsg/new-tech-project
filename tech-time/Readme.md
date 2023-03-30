@@ -1,4 +1,4 @@
-#HOW TO RUN THIS APP
+# HOW TO RUN THIS APP
 
 1- Install Docker: If you haven't already, you will need to install Docker on your computer. You can download it from the Docker website.
 
