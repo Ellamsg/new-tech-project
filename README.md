@@ -17,7 +17,7 @@ docker build -t my-app .
 
 5- Run the Docker container: Once the image has been built, run the Docker container using the docker run command. Be sure to include the -p flag to map the container's port to a port on your computer.
 
-docker run -p 3000:3000 my-app
+docker run -p 8080:8080 my-app
 
 
 6 -Open the app: Open your web browser and navigate to http://localhost:8080. You should see the React app running in your browser.
